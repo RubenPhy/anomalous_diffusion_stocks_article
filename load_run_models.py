@@ -88,7 +88,7 @@ def predict_task2(model,df,start_date, end_date,task,len_min,len_max,now):
             task_HomLenRes = read_reshape_txt(name_file_txt,len_max)
             
             # Clasified the data
-            model_predicted = model.predict(task_HomLenRes) # XXXX aqui estan los NA
+            model_predicted = model.predict(task_HomLenRes)
             
             df.iloc[i,-1] = model_predicted
             log(RIC+' predicted and save',now)
