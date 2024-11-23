@@ -1,0 +1,16 @@
+test.py
+ANDI_Challeng*
+andi_dataset*
+env_diffusio*
+venv_diffusio*
+*claves*
+data2*
+articulo*
+__pycache__*
+*.log
+preds*
+download_data.py
+*/old/*
+papers/*
+plots/*
+*.pdf
